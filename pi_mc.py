@@ -15,7 +15,7 @@ class pi_est:
 
   def result(self):
     try:
-      x_rand=np.random.uniform(low=0,high=1,size=self.n_sim), 
+      x_rand=np.random.uniform(low=0,high=1,size=self.n_sim) 
       y_rand=(1-x_rand**2)**0.5
       rand_num=np.random.uniform(low=0,high=1,size=self.n_sim)
 
